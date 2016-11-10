@@ -1,40 +1,8 @@
-# HoT Hub Of Things
+# The Thing **IoT sample**
+Basic IoT sample using [Node.js](http://nodejs.org), Angular, Arduino and MQTT.
 
-## MQTT-SN
-Implementacion mqtt-sn con arduino y puerto series
-https://github.com/boriz/MQTT-SN-Arduino
 
-Fortwarder copado de MQTT-SN
-https://github.com/Rodmg/aquila-mqtt-sn-gateway
-
-## Modelo invernadero
-
-* Sensors
-    * id: Usamos el numero de PIN 
-    * Tipo: 'TE' | 'HA' | 'HS' | 'LI' 
-    * getValue()
-    * onLow
-    * onOk
-    * onHigh
-    * settings
-        * lowValue
-        * highValue
-        * treshold: %
-        * diferential: false | true 
-* Actuators
-    * id: Usamos el numero de PIN
-    * Tipo: 'FAN' | 'HEAT' | 'IRRIGATION' | 'LIGTH'
-    * getStatus()
-    * activate
-    * de-activate
-* Timers
-    * Cron Expression
-    * Actuator id
-    * Activation time    
-
-**Generated from HotTowel Angular**
-
->*Opinionated Angular style guide for teams by [@john_papa](//twitter.com/john_papa)*
+Based on [@john_papa](//twitter.com/john_papa) [HotTowel](https://github.com/johnpapa) 
 
 >More details about the styles and patterns used in this app can be found in my [Angular Style Guide](https://github.com/johnpapa/angularjs-styleguide) and my [Angular Patterns: Clean Code](http://jpapa.me/ngclean) course at [Pluralsight](http://pluralsight.com/training/Authors/Details/john-papa) and working in teams.
 
