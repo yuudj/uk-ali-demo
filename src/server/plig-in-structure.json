@@ -1,0 +1,85 @@
+{
+    "sites": [
+        {
+            "_id": "LOC_0",
+            "displayName": "Default Site",
+            "description": "",
+            "childrens": [
+                {
+                    "_id": "LOC_0/DEV_01",
+                    "displayName": "Invernadero 1",
+                    "description": "Invernadero",
+                    "driver": "",
+                    "childrens": [
+                        {
+                            "_id": "LOC_0/DEV_01/TEMP",
+                            "displayName": "Temepratura",
+                            "description": "",
+                            "value": 21,
+                            "settings": {
+                                "min": null,
+                                "max": 21,
+                                "threshold": 1
+                            }
+                        },
+                        {
+                            "_id": "LOC_0/DEV_01/HUMA",
+                            "displayName": "Humedad Aire",
+                            "description": "",
+                            "value": 0.5,
+                            "settings": {
+                                "min": 0.5,
+                                "max": 0.9,
+                                "threshold": 1
+                            }
+                        },
+                        {
+                            "_id": "LOC_0/DEV_01/HUMS",
+                            "displayName": "Humedad Suelo",
+                            "description": "",
+                            "value": 0.5,
+                            "settings": {
+                                "min": 0,
+                                "max": 1,
+                                "threshold": 1
+                            }
+                        },
+                        {
+                            "_id": "LOC_0/DEV_01/LIGTH",
+                            "displayName": "Luz",
+                            "description": "",
+                            "value": 0,
+                            "settings": {
+                                "min": 21,
+                                "max": null,
+                                "threshold": 1
+                            }
+                        },
+                        {
+                            "_id": "LOC_0/DEV_01/IRRI",
+                            "displayName": "IRRIGACION",
+                            "description": "",
+                            "value": 0,
+                            "commands": {
+                                "activate": {
+                                    "time": 0
+                                }
+                            }
+                        },
+                        {
+                            "_id": "LOC_0/DEV_01/ILU",
+                            "displayName": "ILUMINAICON",
+                            "description": "",
+                            "value": 0,
+                            "commands": {
+                                "activate": {
+                                    "time": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
